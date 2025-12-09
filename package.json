@@ -1,0 +1,21 @@
+{
+  "name": "my-gosh",
+  "displayName": "My Gosh",
+  "description": "My personal color theme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "my-gosh",
+        "uiTheme": "vs-dark",
+        "path": "./themes/my-gosh-color-theme.json"
+      }
+    ]
+  }
+}
